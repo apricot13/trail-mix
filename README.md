@@ -1,5 +1,3 @@
-# Trail Mix
+# Trail mix
 
-mix of things, get it.
-
-its very hard to keep with the camping references. 
+lots of little things, get it! 

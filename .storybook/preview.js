@@ -1,13 +1,10 @@
-import React from 'react';
-import { GlobalStyle } from '../src/shared/global'
+import React from "react";
 
+import { GlobalStyle } from "../src/shared/global";
 
-
-/*
- * Global decorator to apply the styles to all stories
- */
+// Global decorator to apply the styles to all stories
 export const decorators = [
-  Story => (
+  (Story) => (
     <>
       <GlobalStyle />
       <Story />
@@ -23,4 +20,4 @@ export const parameters = {
       date: /Date$/,
     },
   },
-}
+};
