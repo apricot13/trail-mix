@@ -1,7 +1,6 @@
 import React from "react";
 
-import ScoutButton from "./ScoutButton";
-import {SolidButton} from "./ScoutButton"
+import {ScoutButton, SolidButton} from "./ScoutButton"
 
 
 export default {

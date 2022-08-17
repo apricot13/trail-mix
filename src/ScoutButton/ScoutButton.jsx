@@ -45,12 +45,9 @@ const solidStyle = css`
     background: ${props => props.theme.styles.linkActive};
   }
 `
-
-const ScoutButton = styled.button`
-  ${styles}
+export const ScoutButton = styled.button`
+${styles}
 `
-
-export default ScoutButton
 
 export const SolidButton = styled(ScoutButton)`
   ${solidStyle}
