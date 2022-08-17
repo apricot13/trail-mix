@@ -1,6 +1,6 @@
 {
   "name": "@apricot13/trail-mix",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": false,
   "description": "outpost design system poc",
   "main": "dist/index.js",
@@ -58,7 +58,9 @@
         {
           "absoluteRuntime": false
         }
-      ]
+      ],
+      "@babel/preset-env",
+      "@babel/preset-react"
     ]
   },
   "browserslist": {
