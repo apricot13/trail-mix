@@ -4,8 +4,14 @@
   "private": false,
   "description": "outpost design system poc",
   "main": "dist/index.js",
-  "repository": "https://github.com/apricot13/trail-mix.git",
-  "author": "Han <@apricot13>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apricot13/trail-mix.git"
+  },
+  "author": {
+    "name": "Han",
+    "email": "@apricot13"
+  },
   "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -25,7 +31,8 @@
     "build-storybook": "build-storybook -s public",
     "test-storybook": "test-storybook",
     "build-storybook-docs": "build-storybook --docs",
-    "release": "auto shipit --base-branch=main"
+    "release": "auto shipit --base-branch=main",
+    "chromatic": "npx chromatic "
   },
   "eslintConfig": {
     "extends": [
@@ -86,5 +93,11 @@
     "cross-env": "^7.0.3",
     "jest": "27",
     "prettier": "^2.7.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/apricot13/trail-mix/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/apricot13/trail-mix#readme",
+  "_id": "@apricot13/trail-mix@0.1.1"
 }
