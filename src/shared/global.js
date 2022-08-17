@@ -118,4 +118,25 @@ export const GlobalStyle = createGlobalStyle`
  body {
    ${bodyStyles}
  }
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+  }
+
+  *::-moz-focus-inner {
+    border: 0 !important;
+
+  }
+
+  *::-moz-focusring {
+    border: 0 !important;
+  }
+
+  p{
+    line-height: 1.5;
+    color: ${props => props.theme.styles.text};
+  }
 `;
