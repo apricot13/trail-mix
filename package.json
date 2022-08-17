@@ -1,6 +1,6 @@
 {
   "name": "@apricot13/trail-mix",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "description": "outpost design system poc",
   "main": "dist/index.js",
@@ -98,6 +98,5 @@
     "url": "https://github.com/apricot13/trail-mix/issues"
   },
   "readme": "ERROR: No README data found!",
-  "homepage": "https://github.com/apricot13/trail-mix#readme",
-  "_id": "@apricot13/trail-mix@0.1.1"
+  "homepage": "https://github.com/apricot13/trail-mix#readme"
 }
