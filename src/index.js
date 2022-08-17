@@ -11,4 +11,4 @@ export * from "./Button";
 export * from "./Icon";
 export * from "./Link";
 export * from "./LocalOffer";
-export * from "./Button";
+export * from "./ScoutButton";
