@@ -1,6 +1,6 @@
 {
   "name": "@apricot13/trail-mix",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": false,
   "description": "outpost design system poc",
   "main": "dist/index.js",
