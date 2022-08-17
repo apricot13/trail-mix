@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 
 import ScoutButton from "./ScoutButton";
 import {SolidButton} from "./ScoutButton"
