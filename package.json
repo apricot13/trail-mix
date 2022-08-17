@@ -8,10 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/apricot13/trail-mix.git"
   },
-  "author": {
-    "name": "Han",
-    "email": "@apricot13"
-  },
+  "author": "Han <@apricot13>",
   "license": "MIT",
   "dependencies": {
     "@babel/preset-react": "^7.18.6",
@@ -33,7 +30,8 @@
     "test-storybook": "test-storybook",
     "build-storybook-docs": "build-storybook --docs",
     "release": "auto shipit --base-branch=main",
-    "chromatic": "npx chromatic "
+    "chromatic": "npx chromatic ",
+    "prepublishOnly": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -100,6 +98,5 @@
   "bugs": {
     "url": "https://github.com/apricot13/trail-mix/issues"
   },
-  "readme": "ERROR: No README data found!",
   "homepage": "https://github.com/apricot13/trail-mix#readme"
 }
