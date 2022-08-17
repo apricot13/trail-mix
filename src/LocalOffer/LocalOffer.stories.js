@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import {LocalOffer} from "./LocalOffer";
+import LocalOffer from "./LocalOffer";
 
 
 export default {
